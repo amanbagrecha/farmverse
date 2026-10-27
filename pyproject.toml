@@ -1,0 +1,9 @@
+[project]
+name = "farmverse"
+version = "0.1.0"
+description = "FarmVerse: isometric pixel-art precision-agriculture simulator over real fields, Sentinel-2 NDVI and weather computed on Fused or on this Mac, crop water-balance simulation in Python, DuckDB state."
+requires-python = ">=3.11"
+dependencies = ["fused", "duckdb", "rasterio", "geopandas", "icechunk"]
+
+[tool.uv]
+package = false
